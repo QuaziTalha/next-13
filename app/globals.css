@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+    padding: 0 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+input, textarea { 
+  display: block;
+  max-width: 300px;
+  margin: 0.5rem 0;
+}
+
+button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav a {
+  font-weight: bold;
+  margin: 0 0.5rem;
+  text-decoration: underline;
+}
+.pageTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.grid {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.action {
+  text-align: left;
+  color: dodgerblue;
+}
+
+.note {
+  height: auto;
+  width: 200px;
+  padding: 0.2rem 1rem;
+  margin: 0.5rem;
+  background: #ffff00;
+  box-shadow: 4px 4px 8px 1px #00000075;
+  border-radius: 2px;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.pageTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.note {
+  height: auto;
+  width: 200px;
+  padding: 0.25rem;
+  border-radius: 2px;
+}
+
+.title {
+  padding: 0.1rem;
+  font-size: 1rem;
+}
+
+.content {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.created {
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+
+.action {
+  text-align: left;
+  color: dodgerblue;
+}
+.dlt{
+  float: right;
+}
